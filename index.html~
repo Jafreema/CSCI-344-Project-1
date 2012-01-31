@@ -15,16 +15,10 @@
   <body>
   	<div class="row" style="background:#1a3465;">
   		
-  		<div class="span5">
+  		<div class="span9">
 			<img src="img/unca_logo_wht-blu_200x115.gif">			
   		</div>
-  		<div class="span7">
-  		<br>
-  		<br>
-  		<br>
-  			<h1 class="top_title">Housing Department</h1>
-  		</div>
-  		<div class="span5 offset5">
+  		<div class="span5 offset8">
   			<ul class="pills">
   			<li class="active"><a href="#">Home</a></li>
   			<li><a href="#">Forms</a></li>
@@ -32,18 +26,11 @@
   			</ul>
   		</div>
   	</div>
-  	<br>
-  	<br>
-  	<br>
+  	
   	<div class ="row">
   		<div class="span8 offset4">
-  		  <form>
-  		  	<fieldset>
-        			<legend>Lorem ipsum dolor sit amet</legend>
-        			<em>(your fields go here)</em>
-        		</fieldset>
-    		</form>
-  		  	
+  		
+  		
   		</div>
   	
   	</div>
