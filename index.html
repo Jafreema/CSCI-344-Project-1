@@ -10,6 +10,13 @@
 
     <script src="twitter-bootstrap-5217131/js/bootstrap-modal.js"></script>
 
+    <script>
+   $(document).ready(function() {
+   $("#myModal").bind('show')
+  });
+    
+    </script>
+    
   </head>
   
   <body>
@@ -35,23 +42,48 @@
   	<br>
   	<br>
   	<br>
+  	
+  	<div class="modal hide fade" id="myModal" style="position: relative; top: auto; left: auto; margin: 0 auto; z-index: 1">
+  		
+  		  	
+  		<div class="modal-header">
+  			<h3>Lorem ipsum</h3>
+    			<a href="#" class="close">&times;</a>
+    		</div>
+    		
+    		<div class="modal-body">
+    		<p>Lorem ipsum dolor sit amet</p>
+    		</div>
+    		
+    		<div class="modal-footer">
+    			<a href="#" class="btn primary">Lorem ipsum dolor</a>
+    			<a href="#" class="btn">Sit Amet</a>
+    		</div>
+    		
+  	</div>
+  	
   	<div class ="row">
   		<div class="span8 offset4">
   		  <form>
   		  	<fieldset>
         			<legend>Please Log In</legend>
         			<em><div class="clearfix">
-        				<label>username :</label>
+        				<label>Username :</label>
         					<div class="input">
         					<input type="text" />
         					</div>
-        					<br>
-        				<label>password :</label>
+        					<br/>
+        				<label>Password :</label>
         					<div class="input">
         					<input type="text">
-        					<br>
-        					<button class="btn primary">Log In</button>
-        					<button class="btn">Sign Up</button>
+        					<br/>
+        					<button class="btn primary"
+        						data-controls-modal="myModal"
+        						data-backdrop="true"
+        						data-keyboard="true" 
+        						href="#myModal" >Log In</button>
+        					
+	      					<button class="btn">Sign Up</button>
         					</div>
         				</div></em>
         		</fieldset>

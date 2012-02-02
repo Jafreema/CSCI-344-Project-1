@@ -15,22 +15,51 @@
   <body>
   	<div class="row" style="background:#1a3465;">
   		
-  		<div class="span9">
+  		<div class="span5">
 			<img src="img/unca_logo_wht-blu_200x115.gif">			
   		</div>
-  		<div class="span5 offset8">
+  		<div class="span7">
+  		<br>
+  		<br>
+  		<br>
+  			<h1 class="top_title">Housing Department</h1>
+  		</div>
+  		<div class="span5 offset5">
   			<ul class="pills">
   			<li class="active"><a href="#">Home</a></li>
   			<li><a href="#">Forms</a></li>
-  			<li><a href="#">Contact</a></li>
+  			<li><a href="contact.html">Contact</a></li>
   			</ul>
   		</div>
   	</div>
-  	
+  	<br>
+  	<br>
+  	<br>
   	<div class ="row">
   		<div class="span8 offset4">
-  		
-  		
+  		  <form>
+  		  	<fieldset>
+        			<legend>Please Log In</legend>
+        			<em><div class="clearfix">
+        				<label>username :</label>
+        					<div class="input">
+        					<input type="text" />
+        					</div>
+        					<br>
+        				<label>password :</label>
+        					<div class="input">
+        					<input type="text">
+        					<br>
+        					<button class="btn primary">Log In</button>
+        					<button class="btn">Sign Up</button>
+        					</div>
+        				</div></em>
+        		</fieldset>
+        		
+    		</form>
+
+    					
+  		  	
   		</div>
   	
   	</div>
