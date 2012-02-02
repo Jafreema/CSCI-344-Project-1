@@ -33,21 +33,12 @@
   		</div>
   	</div>
   	<br>
+  	<br>
+  	<br>
   	<div class ="row">
-  		<div class="span8 offset7">
-  		
-  			<h3> If you need anything talk to this guy</h3>
-  			<h4> jafreema@unca.edu </h4>
+  		  	
   		</div>
   	
   	</div>
-  	
-  	<div class="row">
-  		<div class="span 10 offset6">
-  			<img src="img/photo.jpg">
-  		</div>
-  	
-  	</div>
-  	
   </body>
 </html>
