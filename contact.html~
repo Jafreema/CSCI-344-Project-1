@@ -9,7 +9,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 
     <script src="twitter-bootstrap-5217131/js/bootstrap-modal.js"></script>
-
+    
+    <script src="twitter-bootstrap-5217131/js/bootstrap-collapse.js"></script>
+    
+    <script>
+    $(document).ready(function() {
+   $("#demo").bind('show')
+  });
+    </script>
+    
   </head>
   
   <body>
@@ -33,12 +41,28 @@
   		</div>
   	</div>
   	<br>
-  	<br>
-  	<br>
   	<div class ="row">
-  		  	
+  		<div class="span8 offset7">
+  		
+  			<h3> If you need anything talk to this guy</h3>
+  			<h4> jafreema@unca.edu </h4>
   		</div>
   	
   	</div>
+  	
+  	<div class="row">
+  		<div class="span 10 offset6">
+  			<button class="btn btn-danger" data-toggle="collapse" data-target="demo">
+  				Push Me
+  			</button>
+ 
+  			<div id="demo" class="collapse in">
+  				<img src="img/photo.jpg">
+  			</div>
+  			
+  		</div>
+  	
+  	</div>
+  	
   </body>
 </html>
